@@ -1,5 +1,5 @@
 # Vue 3 project starter Vite-based 🚀.
-Start a new Vue 3 project with Vite, Typescript, Jest, ESlint and Prettier.
+Vue 3 project base with Vite, Typescript, Jest, ESlint and Prettier.
 ## Installation
 
 Using `npm` install all dependencies.
