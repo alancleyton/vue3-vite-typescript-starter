@@ -3,7 +3,21 @@
   "include": ["env.d.ts", "src/**/*.d.ts", "src/**/*", "src/**/*.vue"],
   "exclude": ["node_modules"],
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
     "baseUrl": ".",
+    "lib": ["ESNext", "dom"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "noEmit": true,
     "paths": {
       "@/*": ["./src/*"]
     }
