@@ -12,6 +12,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
+    jest: true,
     'vue/setup-compiler-macros': true,
   },
   parserOptions: {

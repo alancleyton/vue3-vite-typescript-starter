@@ -10,6 +10,7 @@
     "jsx": "preserve",
     "skipLibCheck": true,
     "baseUrl": ".",
+    "types": ["jest"],
     "lib": ["ESNext", "dom"],
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -22,7 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-
   "references": [
     {
       "path": "./tsconfig.vite-config.json"
